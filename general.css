@@ -1,0 +1,103 @@
+body{
+    background-color: #3c3c3c;
+    color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    padding: 1px;
+    text-align: center;
+    background-color: #087e8b;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+    font-size: 15px;
+}
+
+/* navbar background color*/
+.topnav {
+    background-color: black;
+    overflow: hidden;
+
+  }
+
+  /*styling links inside navbar */
+.topnav a{
+    float: left;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+/*Hover changes color*/
+.topnav a:hover{
+    background-color: #087e8b;
+    color: #f5f5f5;
+
+}
+
+/* Active link is a different color */
+.topnav a.active{
+    background-color: #ff5a5f;
+    color: #f5f5f5;
+
+}
+
+p{
+    font-family: 'Varela Round'; font-size: 22px;
+}
+
+p.short {
+    max-width: 600px;
+  }
+
+.resize{
+    width: 600px;
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+.rightImage{
+    float: right;
+    margin-right: 10px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+a{
+    color: royalblue;
+}
+
+a:visited{
+    color:#ff5a5f;
+}
+
+a:hover{
+    color: #087E8B;
+}
+
